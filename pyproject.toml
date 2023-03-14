@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qa-06"
+version = "0.1.0"
+description = ""
+authors = ["KatyaMy <20FamGam20@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qa_06"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
