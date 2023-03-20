@@ -27,14 +27,14 @@ print(*list,)
 2) Членов семьи нужно перечислить через запятую. 
 Ожидаемый результат - программа выводит семью с бОльшим составом. Если состав одинаковый, print("Equal')'''
 
-# family_1 = input('Enter members family_1: ')
-# family_2 = input('Enter members family_2: ')
-# if family_1 > family_2:
-#     print(f'Family_1: {family_1}')
-# if family_2 > family_1:
-#     print(f'family_2: {family_2}')
-# elif family_1 == family_2 or family_2 == family_1:
-#     print("Family Equal")
+family_1 = input('Enter members family_1: ')
+family_2 = input('Enter members family_2: ')
+if family_1 > family_2:
+    print(f'Family_1: {family_1}')
+if family_2 > family_1:
+    print(f'family_2: {family_2}')
+elif family_1 == family_2 or family_2 == family_1:
+    print("Family Equal")
 
 ''' 5.Создайте словарь film c ключами title, director, year, budget, main_actor, slogan. В значения можете передать информацию
     о вашем любимом фильме. 
@@ -68,6 +68,7 @@ print(num)
      - найдите значения, которые встречаются в обоих множествах
      - найдите значения, которые не встречаются в обоих множествах
      - проверьте являются ли эти множества подмножествами друг друга '''
+
 set1 = {'a', 'z', 1, 5, 9, 12, 100, 'b'}
 set2 = {5, 'z', 1, 8, 9, 21, 100, 'l', 785}
 print(set1.intersection(set2, set1))
@@ -76,11 +77,7 @@ print(set1.difference(set2))
 print(set1.issuperset(set2))
 print(set2.issubset(set1))
 
-
-
-
-
-# s1 = "Ronaldo is better than Messsi"
-# print('Ronaldo' in s1)
-# print('Football' in s1)
-# print(sum(range(4, 10)))
+s1 = "Ronaldo is better than Messsi"
+print('Ronaldo' in s1)
+print('Football' in s1)
+print(sum(range(4, 10)))
