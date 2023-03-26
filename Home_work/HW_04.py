@@ -3,6 +3,7 @@ import time
 import random as rand
 
 from my_calc import *
+
 """4.1. Напишите функцию square, принимающую 1 аргумент — сторону квадрата, и возвращающую 3 значения (с помощью кортежа):
      периметр квадрата, площадь квадрата и диагональ квадрата."""
 
@@ -10,7 +11,7 @@ from my_calc import *
 # -1
 def square(s):
     return s * 4, \
-        s * s, \
+           s * s, \
         round(s * 1.414, 2)
 
 
@@ -51,9 +52,9 @@ def square(a):
 
 print(square(5))
 
-
 """ 4.2. Напишите фукнцию, которая принимает произвольное количество именнованных аргументов и выводит их построчно
      в формате аргумент: значение. Например:"""
+
 
 @calculate_time
 def about(name, last_name, age, position):
@@ -61,6 +62,14 @@ def about(name, last_name, age, position):
 
 
 print(about('Katya', 'M', 35, 'student'))
+
+
+def argum(**kwargs):
+    for key, value in kwargs.items():
+        print(f'{key}: {value}')
+
+
+print(argum(name='Max', age='19', position='Student'))
 
 """4.3. Используя лямбда-выражение, из списка my_list = [20, -3, 15, 2, -1, -21] создайте новый список, содержащий только
      положительные числа"""
