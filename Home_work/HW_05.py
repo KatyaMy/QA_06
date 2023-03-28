@@ -11,7 +11,7 @@ class Books:
         self._price = price
 
     def display_info(self):
-        print(f'Author: {self.author} \nTitle: {self.title} \nPublication Year: {self.public_year}')
+        print(f'Author: {self.author} \nTitle: {self.title} \nPublication Year: {self.public_year} y')
 
     def get_price(self):
         return f'Price = {self._price}'
@@ -30,3 +30,6 @@ print("___________")
 
 book2 = Books('Tihii Don', 'M.Sholohov', 1904, 389.0)
 book2.display_info()
+print(book2.get_price())
+print(book2.set_price(350.0))
+print(book2.get_price())
