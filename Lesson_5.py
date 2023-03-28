@@ -35,10 +35,10 @@ print(dog2.get_name())
 # print(dog2.color)
 # print(dog2.__dict__)
 
-# dog2.name = 'Koll'
-# print(dog2.get_name())
+dog2.name = 'Koll'
+print(dog2.get_name())
 
-# print(dog2.set_name('Gurr'))
+print(dog2.set_name('Gurr'))
 
 
 class Pitbull(Dog):
@@ -61,3 +61,5 @@ print(dog3.get_name())
 # print(dog2.passport)
 # print(dog2.run())
 # print(dog3.run())
+
+
