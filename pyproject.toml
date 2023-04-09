@@ -8,6 +8,7 @@ packages = [{include = "qa_06"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+selenium = "^4.8.3"
 
 
 [build-system]
