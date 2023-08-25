@@ -1,5 +1,6 @@
 import time
 
+
 def plus(a, b):
     return f'PLUS Total: {a + b}'
 
@@ -31,4 +32,5 @@ def calculate_time(func):
         end_time = time.time()
         print("====Time taken====:", end_time - start_time, "seconds")
         return result
+
     return wrapper

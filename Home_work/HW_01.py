@@ -35,3 +35,15 @@
 # star = "*"
 # space = " "
 # print(star * 9 + ('\n' + star + space * 7 + star) * 2 + '\n' + star * 9)
+
+#
+# num = input("Enter number: ")
+# print(num)
+
+
+# a,b,c = map(int, input().split())
+# print(a,b,c, sep=',')
+
+
+print('Гвидо', 'Ван', 'Россум', sep='*', end='-')
+print('Основатель', 'Питона', sep='_', end='!')
